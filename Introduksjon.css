@@ -1,0 +1,12 @@
+@charset "UFT-8";
+
+/* Introduksjon */
+ 
+.introDiv{
+    padding: 20px;
+}
+
+#introImg{
+    width: 300px;
+    margin-left: -50%;
+}

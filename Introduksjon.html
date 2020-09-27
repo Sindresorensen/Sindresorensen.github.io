@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Nettside.css">
+    <link rel="stylesheet" href="Introduksjon.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempevegen 8</title>
+</head>
+<body>
+    
+    <div class="mainDiv">
+
+        <div class="header">
+
+            <div id="clock" onload="startTime()"></div>
+
+            <h1>TEMPEVEGEN 8</h1>
+        </div>
+
+
+        <div class="menubuttons">
+            <li> <a href="Forside.html">Forside</a></li>
+            <li> <a href="Introduksjon.html">Introduksjon</a></li>
+            <li> <a href="Oppskrifter.html">Oppskrifter</a></li>
+        </div>
+
+        <div class="introDiv">
+            <select id="introduction">hey
+                <option selected disabled>Introduserer:</option>
+                <option value="Emil" id="Emil">Emil</option>
+                <option value="Marcus" id="Marcus">Marcus</option>
+                <option value="Sindre" id="Sindre">Sindre</option>
+            </select>
+<br>
+<br>
+            <img src="pictures/png.png" id="introImg">
+
+        </div>
+
+    
+    </div>
+
+<!-- Bunnlinje: -->
+
+
+    <div class="bottomDiv">
+
+        <!-- Venstre: -->
+
+        <div class="sosialeMedierDiv">
+
+            <p id="sosialeMedier">Sosiale medier</p>
+    
+            <ul>
+
+                <li style="list-style-image: url(Pictures/Instagram_icon.png)">
+                    <a class="ig_list" href="https://www.instagram.com/tempevegen8/" target="_blank">Tempevegen 8</a>
+                </li>
+        
+                <li style="list-style-image: url(Pictures/Snapchat_icon.png)">
+                    <p class="sc_list" id="snapList">Snapchat</p> 
+                </li>
+
+            </ul>
+        
+            <div class="snapchat">
+
+                <p>Klikk på kodene:</p>
+                <img src="Pictures/Emil_sc.png" id="Emil_sc" alt="emilnick98">
+                <img src="Pictures/Marcus_sc.png" id="Marcus_sc" alt="marcusandas">
+                <img src="Pictures/Sindre_sc.png" id="Sindre_sc" alt="sindrus99"> 
+
+            </div>
+                
+        </div>
+
+        <!-- Midten:-->
+
+        <div class="kontaktDiv">
+
+            <p id="kontakt">Kontakt oss</p>
+
+            <p id="emilKontakt">Emil | 410 03 327 | emikrist@hotmail.com</p>
+            <p id="marcusKontakt">Marcus | 988 47 895 | marcusands@live.no</p>
+            <p id="sindreKontakt">Sindre | 472 65 774 | sindre71@hotmail.com</p>
+
+        </div>
+
+        <!-- Høyre: -->
+
+        <div class="usikkerDiv">
+            
+            <div id="googleMaps"></div>
+
+        </div>
+    
+
+    </div>
+
+    
+
+   
+
+
+    <!-- Snapchat zoom elementer -->
+
+    <div id="blackBackground" class="blackDiv">
+
+    <span class="close" id="blackClose">&times;</span>
+        
+    <img style="cursor: pointer" class="image" id="img1">
+    
+    <div id="scTekst"></div>
+
+
+
+
+    <script src="Introduksjon.js"></script>
+    <script src="Nettside.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9_k41ucu1zKX99SYeb3sZDOelE5BUf9w&callback=myMap"></script>
+
+
+</body>
+</html>
+
