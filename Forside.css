@@ -28,14 +28,14 @@
 
 #introObject{
 
-    width: 450px;
-    height: 80%;
+    width: 490px;
+    height: 100%;
 
     margin: auto;
 
     position: absolute; 
 
-    top: 10%;
+    top: 4%;
     
     /*left: 23%;
     top: -450px;*/
